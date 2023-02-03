@@ -1,0 +1,99 @@
+/* ==========================================================================
+	 Mixins	 ========================================================================== */
+body {
+  background: #000000;
+  background-size: cover;
+  font-family: "Oswald", sans-serif;
+}
+
+.text-anim {
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+
+/* ==========================================================================
+	 Main Animation	 ========================================================================== */
+.text-anim span {
+  opacity: 0;
+  transition: all, 550ms;
+  -moz-filter: blurunquote("(25px)");
+  -ms-filter: blurunquote("(25px)");
+  filter: blurunquote("(25px)");
+  transform: translateZunquote("(0)");
+}
+.text-anim span:nth-child(22) {
+  transition-delay: 770ms;
+}
+.text-anim span:nth-child(21) {
+  transition-delay: 735ms;
+}
+.text-anim span:nth-child(20) {
+  transition-delay: 700ms;
+}
+.text-anim span:nth-child(19) {
+  transition-delay: 665ms;
+}
+.text-anim span:nth-child(18) {
+  transition-delay: 630ms;
+}
+.text-anim span:nth-child(17) {
+  transition-delay: 595ms;
+}
+.text-anim span:nth-child(16) {
+  transition-delay: 560ms;
+}
+.text-anim span:nth-child(15) {
+  transition-delay: 525ms;
+}
+.text-anim span:nth-child(14) {
+  transition-delay: 490ms;
+}
+.text-anim span:nth-child(13) {
+  transition-delay: 455ms;
+}
+.text-anim span:nth-child(12) {
+  transition-delay: 420ms;
+}
+.text-anim span:nth-child(11) {
+  transition-delay: 385ms;
+}
+.text-anim span:nth-child(10) {
+  transition-delay: 350ms;
+}
+.text-anim span:nth-child(9) {
+  transition-delay: 315ms;
+}
+.text-anim span:nth-child(8) {
+  transition-delay: 280ms;
+}
+.text-anim span:nth-child(7) {
+  transition-delay: 245ms;
+}
+.text-anim span:nth-child(6) {
+  transition-delay: 210ms;
+}
+.text-anim span:nth-child(5) {
+  transition-delay: 175ms;
+}
+.text-anim span:nth-child(4) {
+  transition-delay: 140ms;
+}
+.text-anim span:nth-child(3) {
+  transition-delay: 105ms;
+}
+.text-anim span:nth-child(2) {
+  transition-delay: 70ms;
+}
+.text-anim span:nth-child(1) {
+  transition-delay: 35ms;
+}
+
+.text-anim.animate span {
+  opacity: 1;
+  -moz-filter: blurunquote("(0px)");
+  -ms-filter: blurunquote("(0px)");
+  filter: blurunquote("(0px)");
+}
